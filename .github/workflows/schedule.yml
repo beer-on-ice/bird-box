@@ -1,5 +1,7 @@
 name: Update gist with latest tweet
 on:
+  watch:
+    types: started
   schedule:
     - cron: '*/10 * * * *'
 jobs:
